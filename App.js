@@ -1,21 +1,9 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+/*
+ * This code is developed to demonstrate the use of ReactJS and ReactNatice
+ * The deelopment also allows me to demonstrate my capabilities using the framework
+ * Following create-react-app methods, the file structure is made from scratch
+ * Copyright - World Food Programmes - Digital Transformation
+*/
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+import Main from './src/Main';
+export default Main;

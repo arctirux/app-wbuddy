@@ -23,7 +23,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.app.wbuddy"
+    },
+    "android":{
+      "package":"com.app.wbuddy"
     }
   }
 }
